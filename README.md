@@ -5,7 +5,7 @@ BTX HiveOS custom miner package for `dexbtx-miner`.
 ## HiveOS
 
 - Miner: `Custom`
-- Custom miner name: `dexbtx`
+- Custom miner name: `dexbtx-v0.3.4`
 - Installation URL: `https://raw.githubusercontent.com/jianglong199103-glitch/btx-hiveos-miner/main/dexbtx-v0.3.4-hiveos.tar.gz`
 - Hash algorithm: `custom`
 - Pool URL: `stratum+tcp://stratum.minebtx.com:3333`
