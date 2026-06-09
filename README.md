@@ -17,11 +17,7 @@ BTX 真正的 PoW 是 `matmul`，但是 HiveOS 的 Custom miner 不靠这个下�
 ## Extra config
 
 ```text
---threads 8 --prepare-workers 16 --batch-size 128 --prefetch 8 --gpu-inputs 0 --nonces-per-slice 2000000
+leave empty
 ```
 
-If the rig is unstable, lower it to:
-
-```text
---threads 4 --prepare-workers 8 --batch-size 128 --prefetch 8 --gpu-inputs 0 --nonces-per-slice 2000000
-```
+Solver tuning is written into `config.yaml` by the HiveOS wrapper.
